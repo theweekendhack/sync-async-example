@@ -19,7 +19,7 @@ const getMoviesFromAPI = (callback)=>{
 
 }
 //sync
-const func3 = (m)=>{
+const displayMovies = (m)=>{
 
     
     console.log(m);
@@ -28,5 +28,5 @@ const func3 = (m)=>{
 
 //Sync model
 func1();  //blocking code
-const movies = getMoviesFromAPI(func3); //ASYNC (non-blocking code)
+const movies = getMoviesFromAPI(displayMovies); //ASYNC (non-blocking code)
 
