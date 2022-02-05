@@ -22,15 +22,13 @@ const getMoviesFromAPI = ()=>{
 const func3 = (m)=>{
 
     
-    for(let i=1; i<=3;i++)
-    {
-           console.log(m)
-    }
+   
+     console.log(m)
+
 }
 
 
 //Sync model
-func1();  //blocking code
-
-const movies = getMoviesFromAPI(); //non-blocking code
-func3(movies); //blocking code
+func1();  // sync (blocking code)
+const movies = getMoviesFromAPI(); // async (non-blocking code)
+func3(movies); // sync (blocking code)
