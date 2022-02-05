@@ -1,13 +1,8 @@
 //sync
 const func1 = ()=>{
 
+    console.log(`Function 1`)
 
-    for(let i=1; i<=3;i++)
-    {
-        console.log(`Function 1`)
-    }
- 
-    
 }
 
 //async
@@ -19,14 +14,18 @@ const getMoviesFromAPI = ()=>{
     const movies = ['Spiderman : No Way HOme',"Titanic", "The Matrix","Bad Boys II"]
 
     setTimeout(()=>{
-        return movies;
+       return movies;
     },0)
 
 }
 //sync
 const func3 = (m)=>{
 
-    console.log(m)
+    
+    for(let i=1; i<=3;i++)
+    {
+           console.log(m)
+    }
 }
 
 

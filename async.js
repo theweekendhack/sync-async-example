@@ -33,3 +33,5 @@ func1();  //blocking code
 getMoviesFromAPI(); //non-blocking code
 func3(); //blocking code
 func4();  //blocking  code 
+
+
